@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODK Data Solutions Hub & Math Mastery Tuition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        gray: '#6b7280',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-inter bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold text-primary">ODK Hub</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#hero" class="hover:text-primary transition">Home</a>
+                    <a href="#services" class="hover:text-primary transition">Services</a>
+                    <a href="#tuition" class="hover:text-primary transition">Tuition</a>
+                    <a href="#pricing" class="hover:text-primary transition">Pricing</a>
+                    <a href="#faq" class="hover:text-primary transition">FAQ</a>
+                    <a href="#contact" class="hover:text-primary transition">Contact</a>
+                </div>
+                <button class="md:hidden" onclick="toggleMenu()">
+                    <i class="fas fa-bars text-primary"></i>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="#hero" class="block py-2 hover:text-primary">Home</a>
+                <a href="#services" class="block py-2 hover:text-primary">Services</a>
+                <a href="#tuition" class="block py-2 hover:text-primary">Tuition</a>
+                <a href="#pricing" class="block py-2 hover:text-primary">Pricing</a>
+                <a href="#faq" class="block py-2 hover:text-primary">FAQ</a>
+                <a href="#contact" class="block py-2 hover:text-primary">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen bg-gradient-to-br from-primary to-blue-800 text-white flex items-center justify-center px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">ODK Data Solutions Hub & Math Mastery Tuition</h1>
+            <p class="text-xl md:text-2xl mb-8">Data Insights. Ace Mathematics. Succeed!</p>
+            <div class="space-x-4">
+                <a href="https://wa.me/233245051371?text=Hello%2C%20I'd%20like%20to%20book%20a%20service." class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Book on WhatsApp</a>
+                <a href="#contact" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Analysis Services -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Data Analysis Services</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <i class="fas fa-chart-bar text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Data Cleaning</h3>
+                    <p class="text-gray-600">Transform raw data into reliable datasets for accurate insights.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-chart-line text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Dashboards</h3>
+                    <p class="text-gray-600">Interactive visualizations to monitor and analyze key metrics.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-chart-pie text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Predictive Analytics</h3>
+                    <p class="text-gray-600">Forecast trends and outcomes using advanced algorithms.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-calculator text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Statistical Modeling</h3>
+                    <p class="text-gray-600">Build robust models for hypothesis testing and decision-making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mathematics & Statistics Tuition -->
+    <section id="tuition" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Mathematics & Statistics Tuition</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <i class="fas fa-graduation-cap text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">GRE & SAT Prep</h3>
+                    <p class="text-gray-600">Tailored strategies for quantitative sections to boost scores.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-calculator text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">A-Level & O-Level</h3>
+                    <p class="text-gray-600">Comprehensive coverage of core math curricula with exam focus.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-chart-bar text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Probability & Statistics</h3>
+                    <p class="text-gray-600">In-depth tuition on foundational and advanced concepts.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-graduation-cap text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Nov/Dec Exams</h3>
+                    <p class="text-gray-600">Intensive revision for WASSCE private candidates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Pricing</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <h3 class="text-2xl font-semibold mb-4">Tuition Services</h3>
+                    <p class="text-gray-600 mb-4">Personalized sessions for all levels.</p>
+                    <p class="text-primary font-bold text-3xl">Custom Quotes</p>
+                    <p class="text-sm text-gray-500 mt-2">Contact us for tailored pricing based on duration and format.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <h3 class="text-2xl font-semibold mb-4">Data Projects</h3>
+                    <p class="text-gray-600 mb-4">Scalable solutions for your business needs.</p>
+                    <p class="text-primary font-bold text-3xl">Custom Quotes</p>
+                    <p class="text-sm text-gray-500 mt-2">Request a free consultation to discuss scope and costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-6 max-w-3xl mx-auto">
+                <div class="border-l-4 border-primary pl-4">
+                    <h3 class="font-semibold mb-2">What are your tuition rates?</h3>
+                    <p class="text-gray-600">We provide custom quotes based on session length, level, and format (online or in-person).</p>
+                </div>
+                <div class="border-l-4 border-primary pl-4">
+                    <h3 class="font-semibold mb-2">Do you offer online classes?</h3>
+                    <p class="text-gray-600">Yes, we support both online and in-person sessions for flexibility.</p>
+                </div>
+                <div class="border-l-4 border-primary pl-4">
+                    <h3 class="font-semibold mb-2">How long does a data project take?</h3>
+                    <p class="text-gray-600">Timelines vary by scope; we deliver initial consultations within 48 hours.</p>
+                </div>
+                <div class="border-l-4 border-primary pl-4">
+                    <h3 class="font-semibold mb-2">What tools do you use for data analysis?</h3>
+                    <p class="text-gray-600">Python, R, Tableau, and Excel for comprehensive solutions.</p>
+                </div>
+                <div class="border-l-4 border-primary pl-4">
+                    <h3 class="font-semibold mb-2">Can I get a free trial session?</h3>
+                    <p class="text-gray-600">Introductory consultations are complimentary to assess your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div>
+                    <p class="text-gray-600 mb-4"><strong>Location:</strong> Accra • Online & In-person</p>
+                    <p class="text-gray-600 mb-4"><strong>Phone:</strong> <a href="tel:+233262906203" class="text-primary hover:underline">+233 262 906 203</a> / <a href="tel:+233597733755" class="text-primary hover:underline">+233 597 733 755</a></p>
+                    <p class="text-gray-600 mb-4"><strong>WhatsApp:</strong> <a href="https://wa.me/233245051371" class="text-primary hover:underline">+233 245 051 371</a></p>
+                    <p class="text-gray-600"><strong>Email:</strong> <a href="mailto:odk.datasolutionhub@gmail.com" class="text-primary hover:underline">odk.datasolutionhub@gmail.com</a> / <a href="mailto:odk.tuition@gmail.com" class="text-primary hover:underline">odk.tuition@gmail.com</a></p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-600 mb-4">Ready to get started? Send us a message today.</p>
+                    <a href="https://wa.me/233245051371?text=Hello%2C%20I'd%20like%20to%20inquire%20about%20your%20services." class="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Message on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
