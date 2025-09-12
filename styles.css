@@ -1,0 +1,13 @@
+/* Custom overrides for Tailwind */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#mobile-menu {
+    transition: max-height 0.3s ease-out;
+}
+
+/* Smooth transitions for icons and links */
+i, a {
+    transition: all 0.2s ease-in-out;
+}
