@@ -48,13 +48,8 @@ A: Yes, we provide custom project-based data solutions.
 
 ---
 
-## 🚀 Deployment on GitHub Pages
-1. Clone this repository or upload files directly.  
-2. Go to **Settings > Pages**.  
-3. Under "Build and deployment", select `main` branch, `/ (root)` folder.  
-4. Save, and your website will be live at:  
-   `https://<your-username>.github.io/odk-website`
 
----
+
+
 
 © 2025 ODK Data Solutions Hub & Math Mastery Tuition
